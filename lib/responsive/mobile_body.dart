@@ -7,6 +7,9 @@ class Mobile_Body extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.greenAccent,
+      body: Container(
+        child: Text("Responsive Ui In Git"),
+      ),
     );
   }
 }
